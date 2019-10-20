@@ -15,6 +15,7 @@ const IndexPage = ({ data }) => (
 						<Link to={`${document.node.id}`}>{document.node.Name}</Link>
 					</h2>
           <img src={document.node.photos.publicURL} alt={`${document.node.id} wine`}/>
+		  <h3>Price: ${document.node.Price}</h3>
           <p>{document.node.description}</p>
 				</li>
 			))}
