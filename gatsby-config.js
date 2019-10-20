@@ -16,7 +16,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-source-strapi',
 			options: {
-				apiURL: 'https://stark-wave-39543.herokuapp.com/',
+				apiURL: 'https://stark-wave-39543.herokuapp.com',
 				contentTypes: [
 					// List of the Content Types you want to be able to request from Gatsby.
 					'wine'
